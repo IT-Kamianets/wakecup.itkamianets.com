@@ -11,6 +11,7 @@ import { FooterComponent } from './layouts/footer/footer.component';
 import { TopbarComponent } from './layouts/topbar/topbar.component';
 import { CanonicalService } from './services/canonical.service';
 import { ScrollService } from './services/scroll.service';
+import { buildAbsoluteUrl } from './services/seo.utils';
 
 @Component({
 	selector: 'app-root',
@@ -34,6 +35,7 @@ export class App {
 	constructor() {
 		this._canonicalService.initialize();
 		this._scrollService.initialize();
+		this._setStructuredData();
 
 		effect(() => {
 			const language = this._languageService.language();
@@ -55,7 +57,7 @@ export class App {
 				path.startsWith('/dish/') ||
 				path.startsWith('/discount/') ||
 				path.startsWith('/review/') ||
-				path.startsWith('/room/')
+				path.startsWith('/product/')
 			) {
 				return;
 			}
@@ -72,15 +74,48 @@ export class App {
 			);
 		});
 	}
+
+	private _setStructuredData() {
+		const existing = this._document.getElementById(
+			'structured-data-local-business',
+		) as HTMLScriptElement | null;
+		const script = existing ?? this._document.createElement('script');
+		const data = companyProfile.structuredData;
+
+		script.id = 'structured-data-local-business';
+		script.type = 'application/ld+json';
+		script.textContent = JSON.stringify({
+			'@context': 'https://schema.org',
+			'@type': data.type,
+			'@id': `${companyProfile.siteUrl}/#business`,
+			name: companyProfile.name,
+			url: companyProfile.siteUrl,
+			logo: buildAbsoluteUrl(companyProfile.logo),
+			image: buildAbsoluteUrl(companyProfile.defaultSeo.image),
+			telephone: companyProfile.phone,
+			email: companyProfile.email,
+			address: {
+				'@type': 'PostalAddress',
+				streetAddress: companyProfile.address,
+				addressLocality: data.addressLocality,
+				addressCountry: data.addressCountry,
+			},
+			priceRange: data.priceRange,
+			servesCuisine: data.servesCuisine,
+			sameAs: data.sameAs,
+		});
+
+		if (!existing) {
+			this._document.head.appendChild(script);
+		}
+	}
 }
 
 const _pageTitleKeys: Record<string, string> = {
-	'/': 'Horeca',
+	'/': 'Wake Cup',
 	'/menu': 'Menu',
 	'/about': 'About us',
-	'/spa': 'Spa',
 	'/favorites': 'Favorites',
-	'/rooms': 'Rooms',
 	'/navigation': 'Navigation',
 	'/gallery': 'Gallery',
 	'/discounts': 'Discounts',

@@ -1,71 +1,61 @@
 {
-	"eyebrow": "About us",
-	"title": "Hotel, restaurant, and cafe complex",
-	"description": "A comfortable place for stays, meals, meetings, and family celebrations with friendly service and practical guest facilities.",
+	"eyebrow": "About Wake Cup",
+	"title": "Specialty coffee cafe in Kamianets-Podilskyi",
+	"description": "Wake Cup is a local cafe for specialty coffee, fresh pastries, takeaway coffee, and easy everyday meetings.",
 	"tags": [
-		"Family and friends rest",
-		"Weddings, banquets, and birthdays",
-		"Conferences and business meetings"
+		"Specialty coffee",
+		"Fresh pastries",
+		"Takeaway coffee"
 	],
 	"intro": {
-		"title": "Everything guests need in one place",
-		"text": "Our complex combines hospitality, food, events, and relaxation in one convenient location. Guests can come for a quiet meal, book a room, celebrate an important date, or organize a business meeting with support from our team.",
-		"image": "assets/images/about/intro.jpg"
+		"title": "A warm stop for coffee and pastries",
+		"text": "Wake Cup serves espresso-based drinks, filter coffee, seasonal cafe drinks, pastries, and simple food in Kamianets-Podilskyi. Guests can stay for a quiet table or take coffee with them while moving through the city.",
+		"image": "gallery/demo-2.webp"
 	},
 	"sections": [
 		{
-			"icon": "hotel",
-			"title": "Hotel",
+			"icon": "local_cafe",
+			"title": "Coffee",
 			"items": [
-				"Comfortable rooms for short and long stays",
-				"Wi-Fi, air conditioning, and essential room facilities",
-				"Secure parking for guests",
-				"Easy check-in and guest support"
+				"Espresso, cappuccino, latte, and seasonal drinks",
+				"Specialty coffee prepared with care",
+				"Milk and non-dairy options when available",
+				"Barista recommendations for regular guests"
 			]
 		},
 		{
-			"icon": "restaurant",
-			"title": "Restaurant",
+			"icon": "bakery_dining",
+			"title": "Pastries",
 			"items": [
-				"Daily service for breakfast, lunch, and dinner",
-				"Local and European-style cuisine",
-				"Seasonal dishes and drinks",
-				"Room service may be available for hotel guests"
+				"Fresh pastries and desserts for coffee breaks",
+				"Sweet options for dine-in or takeaway",
+				"Seasonal treats and simple cafe favorites",
+				"Easy pairings with espresso and milk drinks"
 			]
 		},
 		{
-			"icon": "celebration",
-			"title": "Banquet halls",
+			"icon": "takeout_dining",
+			"title": "Takeaway",
 			"items": [
-				"Spaces for weddings, birthdays, and family events",
-				"Group menu and banquet options",
-				"Support with seating plan and timing",
-				"Atmosphere suitable for private celebrations"
+				"Takeaway coffee for walks, work, and errands",
+				"Quick service for busy mornings",
+				"Drinks packed for the road",
+				"Pastry boxes and small gifts when available"
 			]
 		},
 		{
-			"icon": "groups",
-			"title": "Events and conferences",
+			"icon": "chair",
+			"title": "Cafe atmosphere",
 			"items": [
-				"Space for business meetings and presentations",
-				"Coffee breaks, lunches, and dinners on request",
-				"Equipment options may be available",
-				"Flexible format for small and medium groups"
-			]
-		},
-		{
-			"icon": "spa",
-			"title": "Relax zone",
-			"items": [
-				"Relaxation areas for guests",
-				"Sauna, pool, terrace, or outdoor spaces may be available",
-				"Suitable for quiet rest after work or travel",
-				"Family-friendly leisure options"
+				"Warm interior for short breaks and friendly meetings",
+				"Comfortable tables for coffee, dessert, and conversation",
+				"Terrace seating when season and weather allow",
+				"Local urban cafe mood in Kamianets-Podilskyi"
 			]
 		}
 	],
 	"service": {
 		"title": "Our service",
-		"text": "Our team helps guests plan their stay, meal, celebration, or meeting with attention to comfort, timing, and important details."
+		"text": "The Wake Cup team keeps coffee, pastry, and takeaway service friendly, clear, and easy to understand for locals and city guests."
 	}
 }

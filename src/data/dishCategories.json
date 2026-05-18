@@ -1,26 +1,26 @@
 [
-	{
-		"name": "Food",
-		"description": "",
-		"parent": "",
-		"slug": "food"
-	},
-	{
-		"name": "Drinks",
-		"description": "",
-		"parent": "",
-		"slug": "drinks"
-	},
-	{
-		"name": "Breakfasts",
-		"description": "Morning meals and light starters.",
-		"parent": "food",
-		"slug": "breakfasts"
-	},
-	{
-		"name": "Coffee",
-		"description": "Hot and cold coffee drinks.",
-		"parent": "drinks",
-		"slug": "coffee"
-	}
+  {
+    "name": "Cold Craft Drinks",
+    "description": "Освіжаючі крафтові холодні напої.",
+    "parent": "",
+    "slug": "cold-craft-drinks"
+  },
+  {
+    "name": "Coffee & Milkshakes",
+    "description": "Кавові напої, какао та мілкшейки.",
+    "parent": "cold-craft-drinks",
+    "slug": "coffee-milkshakes"
+  },
+  {
+    "name": "Cocktails & Lemonades",
+    "description": "Освіжаючі коктейлі та лимонади.",
+    "parent": "cold-craft-drinks",
+    "slug": "cocktails-lemonades"
+  },
+  {
+    "name": "Matcha Drinks",
+    "description": "Холодні напої з матча.",
+    "parent": "cold-craft-drinks",
+    "slug": "matcha-drinks"
+  }
 ]

@@ -10,7 +10,6 @@ import { Product } from '@wawjs/ngx-horeca';
 import { Question } from '@wawjs/ngx-horeca';
 import { Quest } from '@wawjs/ngx-horeca';
 import { Review } from '@wawjs/ngx-horeca';
-import { Room } from '@wawjs/ngx-horeca';
 import { Rule } from '@wawjs/ngx-horeca';
 
 export interface BootstrapData {
@@ -26,7 +25,6 @@ export interface BootstrapData {
 	questions?: Partial<Question>[] | null;
 	quests?: Partial<Quest>[] | null;
 	reviews?: Partial<Review>[] | null;
-	rooms?: Partial<Room>[] | null;
 	rules?: Partial<Rule>[] | null;
 	discounts?: Partial<Discount>[] | null;
 }

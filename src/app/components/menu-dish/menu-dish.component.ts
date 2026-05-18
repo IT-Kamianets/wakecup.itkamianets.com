@@ -1,12 +1,11 @@
 import { ChangeDetectionStrategy, Component, computed, inject, input } from '@angular/core';
 import { DishCard } from '@wawjs/ngx-horeca';
 import { DishService } from '@wawjs/ngx-horeca';
-import { ImageComponent } from '../image/image.component';
 import { TranslateDirective } from '@wawjs/ngx-translate';
 
 @Component({
 	selector: 'app-menu-dish',
-	imports: [ImageComponent, TranslateDirective],
+	imports: [TranslateDirective],
 	templateUrl: './menu-dish.component.html',
 	styleUrl: './menu-dish.component.scss',
 	changeDetection: ChangeDetectionStrategy.OnPush,

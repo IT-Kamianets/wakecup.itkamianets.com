@@ -1,7 +1,7 @@
 @let _dish = dish();
 
 <article
-	class="grid grid-cols-[minmax(0,1fr)_7.25rem] gap-3 px-3 py-3 sm:grid-cols-[minmax(0,1fr)_10rem]"
+	class="px-3 py-3"
 >
 	<div class="min-w-0">
 		<div class="flex items-start justify-between gap-3">
@@ -65,17 +65,4 @@
 			</div>
 		}
 	</div>
-
-	<app-image
-		class="relative self-start overflow-hidden rounded-[0.75rem]"
-		imageClass="h-[5.9rem] w-full rounded-[0.75rem] object-cover sm:h-[7.25rem]"
-		mode="navigate"
-		[link]="['/dish', _dish.slug]"
-		[src]="_dish.image"
-		[width]="320"
-		[height]="232"
-		translate
-		[translate]="{ alt: _dish.imageAlt }"
-		loading="lazy"
-	/>
 </article>

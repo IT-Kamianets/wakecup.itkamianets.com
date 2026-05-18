@@ -8,13 +8,17 @@ const outputDir = path.join(rootDir, 'dist/app/browser');
 
 const staticRoutes = [
 	'/',
+	'/menu',
+	'/about',
 	'/favorites',
-	'/rooms',
 	'/navigation',
 	'/gallery',
-	'/sales',
+	'/discounts',
+	'/loyalty',
 	'/articles',
 	'/quests',
+	'/questions',
+	'/rules',
 	'/reviews',
 	'/events',
 	'/products',
@@ -26,6 +30,13 @@ const staticRoutes = [
 const company = await readJson('src/data/company.json');
 const dishes = await readJson('src/data/dishes.json');
 const articles = await readJson('src/data/articles.json');
+const discounts = await readJson('src/data/discounts.json');
+const events = await readJson('src/data/events.json');
+const jobs = await readJson('src/data/jobs.json');
+const products = await readJson('src/data/products.json');
+const profiles = await readJson('src/data/profiles.json');
+const quests = await readJson('src/data/quests.json');
+const reviews = await readJson('src/data/reviews.json');
 const siteUrl = trimTrailingSlash(company.siteUrl || 'https://example.com');
 const pageSeo = company.pageSeo ?? {};
 
@@ -33,6 +44,13 @@ const routes = [
 	...staticRoutes.filter((route) => isIndexable(route, pageSeo)),
 	...toSlugRoutes('/dish', dishes),
 	...toSlugRoutes('/article', articles),
+	...toSlugRoutes('/discount', discounts),
+	...toSlugRoutes('/event', events),
+	...toSlugRoutes('/job', jobs),
+	...toSlugRoutes('/product', products),
+	...toSlugRoutes('/profile', profiles),
+	...toSlugRoutes('/quest', quests),
+	...toSlugRoutes('/review', reviews),
 ];
 const lastmod = new Date().toISOString().slice(0, 10);
 

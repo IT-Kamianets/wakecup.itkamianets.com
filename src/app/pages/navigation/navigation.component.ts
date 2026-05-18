@@ -16,7 +16,6 @@ export class NavigationComponent {
 		{ label: 'FAQ', icon: 'help', route: '/questions' },
 		{ label: 'Rules', icon: 'gavel', route: '/rules' },
 
-		{ label: 'Rooms', icon: 'hotel', route: '/rooms' },
 		{ label: 'Discounts', icon: 'local_offer', route: '/discounts' },
 
 		{ label: 'Team', icon: 'group', route: '/team' },
@@ -28,7 +27,6 @@ export class NavigationComponent {
 		{ label: 'Events', icon: 'event', route: '/events' },
 		{ label: 'Quests', icon: 'map', route: '/quests' },
 
-		{ label: 'Spa', icon: 'spa', route: '/spa' },
 		{ label: 'Loyalty', icon: 'workspace_premium', route: '/loyalty' },
 	];
 }

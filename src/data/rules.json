@@ -7,7 +7,7 @@
 	{
 		"category": "General",
 		"title": "Keep shared spaces clean",
-		"description": "Please keep tables, rooms, bathrooms, terraces, and shared areas clean. If something spills or breaks, let our team know as soon as possible."
+		"description": "Please keep tables, bathrooms, terrace seating, and shared areas clean. If something spills or breaks, let our team know as soon as possible."
 	},
 	{
 		"category": "General",
@@ -22,56 +22,36 @@
 	{
 		"category": "General",
 		"title": "Pets by prior approval",
-		"description": "Pets may be allowed depending on the area, season, and house policy. Please confirm with our team before visiting or booking with a pet."
+		"description": "Pets may be allowed depending on the area, season, and house policy. Please confirm with our team before visiting with a pet."
 	},
 	{
-		"category": "Restaurant",
+		"category": "Cafe",
 		"title": "Reservations may have a grace period",
-		"description": "Reserved tables or rooms may be held for a limited time after the scheduled arrival. If you are running late, please contact us."
+		"description": "Reserved tables may be held for a limited time after the scheduled arrival. If you are running late, please contact us."
 	},
 	{
-		"category": "Restaurant",
+		"category": "Cafe",
 		"title": "Outside food and drinks need approval",
-		"description": "Outside food, drinks, cakes, or alcohol may require prior approval. Some events or services may include a service fee."
+		"description": "Outside food, drinks, cakes, or alcohol may require prior approval. Some gatherings may include a service fee."
 	},
 	{
-		"category": "Restaurant",
+		"category": "Cafe",
 		"title": "Tell us about allergies before ordering",
 		"description": "Please inform our team about allergies, intolerances, or dietary restrictions before ordering. We will advise you on suitable options where possible."
 	},
 	{
-		"category": "Restaurant",
+		"category": "Cafe",
 		"title": "Menu items depend on availability",
-		"description": "Some dishes, drinks, or seasonal offers may be limited or unavailable depending on supply, preparation time, and current workload."
+		"description": "Some coffee drinks, pastries, desserts, or seasonal offers may be limited or unavailable depending on supply, preparation time, and current workload."
 	},
 	{
-		"category": "Restaurant",
-		"title": "Alcohol is served according to local law",
-		"description": "Alcohol service follows local laws and age restrictions. Our team may refuse alcohol service when required for safety or legal reasons."
-	},
-	{
-		"category": "Hotel",
-		"title": "Check-in and check-out times apply",
-		"description": "Standard check-in and check-out times apply to all stays unless early check-in or late check-out is confirmed in advance."
-	},
-	{
-		"category": "Hotel",
-		"title": "Guests are responsible for room condition",
-		"description": "Guests are responsible for the condition of rooms, furniture, towels, keys, and equipment during their stay. Damage or missing items may be charged."
-	},
-	{
-		"category": "Hotel",
-		"title": "Quiet hours protect guest comfort",
-		"description": "Please keep noise low during quiet hours, especially in rooms, corridors, terraces, and parking areas."
+		"category": "Takeaway",
+		"title": "Check takeaway orders before leaving",
+		"description": "Please check takeaway coffee, pastry boxes, and packaged items before leaving so our team can correct anything immediately."
 	},
 	{
 		"category": "Events",
-		"title": "Event details should be confirmed in advance",
-		"description": "For birthdays, banquets, meetings, and private events, please confirm guest count, menu, timing, decorations, and special requests in advance."
-	},
-	{
-		"category": "Events",
-		"title": "Decorations must be safe and approved",
-		"description": "Decorations, candles, confetti, music, equipment, and layout changes should be approved by our team and must not damage the property."
+		"title": "Small gathering details should be confirmed in advance",
+		"description": "For birthdays, tastings, and group cafe visits, please confirm guest count, timing, and special requests in advance."
 	}
 ]

@@ -9,7 +9,6 @@ import {
 	profileSlugs,
 	questSlugs,
 	reviewSlugs,
-	roomSlugs,
 } from './feature/bootstrap/fallback-data';
 
 export const serverRoutes: ServerRoute[] = [
@@ -46,13 +45,6 @@ export const serverRoutes: ServerRoute[] = [
 		renderMode: RenderMode.Prerender,
 		async getPrerenderParams() {
 			return jobSlugs.map((slug) => ({ slug }));
-		},
-	},
-	{
-		path: 'room/:slug',
-		renderMode: RenderMode.Prerender,
-		async getPrerenderParams() {
-			return roomSlugs.map((slug) => ({ slug }));
 		},
 	},
 	{
