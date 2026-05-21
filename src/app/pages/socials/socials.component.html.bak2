@@ -25,7 +25,7 @@
 			<div class="space-y-4">
 
 
-				<a
+				<a>
 					class="contact-card block rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
 					href="https://maps.app.goo.gl/aUF8WEU2cEbnWwf76"
 					target="_blank"

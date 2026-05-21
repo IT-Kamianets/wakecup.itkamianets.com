@@ -25,13 +25,8 @@
 			<div class="space-y-4">
 
 
-				<a
-					class="contact-card block rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
-					href="https://maps.app.goo.gl/aUF8WEU2cEbnWwf76"
-					target="_blank"
-					rel="noreferrer nofollow"
-					translate
-					[translate]="{ ariaLabel: 'Open Wake Cup address on Google Maps' }"
+				<div
+					class="contact-card block rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)]"
 				>
 					<div class="flex items-start gap-4">
 						<span class="icon-wrap mt-1 inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-full text-xl font-semibold text-[var(--c-text-muted)]" aria-hidden="true">
