@@ -1,17 +1,17 @@
 [
 	{
-		"slug": "horeca-bar-service-photo",
+		"slug": "wake-cup-espresso-preparation",
 		"src": "gallery/demo-1.webp",
-		"alt": "Horeca bar service photo"
+		"alt": "Espresso preparation at Wake Cup cafe"
 	},
 	{
-		"slug": "horeca-hotel-reception-photo-1",
+		"slug": "wake-cup-latte-art-and-pastries",
 		"src": "gallery/demo-2.webp",
-		"alt": "Horeca hotel reception photo"
+		"alt": "Latte art and pastries at Wake Cup"
 	},
 	{
-		"slug": "horeca-hotel-reception-photo-2",
+		"slug": "wake-cup-cafe-atmosphere",
 		"src": "gallery/demo-3.webp",
-		"alt": "Horeca hotel reception photo"
+		"alt": "Warm local cafe atmosphere at Wake Cup"
 	}
 ]

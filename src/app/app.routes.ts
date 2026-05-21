@@ -24,25 +24,11 @@ export const routes: Routes = [
 		loadComponent: () => import('./pages/about/about.component').then((m) => m.AboutComponent),
 	},
 	{
-		path: 'spa',
-		data: {
-			meta: buildRouteMeta('/spa'),
-		},
-		loadComponent: () => import('./pages/spa/spa.component').then((m) => m.SpaComponent),
-	},
-	{
 		path: 'favorites',
 		data: {
 			meta: buildRouteMeta('/favorites'),
 		},
 		loadComponent: () => import('./pages/menu/menu.component').then((m) => m.MenuComponent),
-	},
-	{
-		path: 'rooms',
-		data: {
-			meta: buildRouteMeta('/rooms'),
-		},
-		loadComponent: () => import('./pages/rooms/rooms.component').then((m) => m.RoomsComponent),
 	},
 	{
 		path: 'navigation',
@@ -63,10 +49,6 @@ export const routes: Routes = [
 	{
 		path: 'dish/:slug',
 		loadComponent: () => import('./pages/dish/dish.component').then((m) => m.DishComponent),
-	},
-	{
-		path: 'room/:slug',
-		loadComponent: () => import('./pages/room/room.component').then((m) => m.RoomComponent),
 	},
 	{
 		path: 'discounts',

@@ -11,7 +11,6 @@ import { ProductService } from '@wawjs/ngx-horeca';
 import { ProfileService } from '@wawjs/ngx-horeca';
 import { QuestService } from '@wawjs/ngx-horeca';
 import { ReviewService } from '@wawjs/ngx-horeca';
-import { RoomService } from '@wawjs/ngx-horeca';
 
 type FeaturePreview = {
 	eyebrow: string;
@@ -40,12 +39,11 @@ export class HomeComponent {
 	private readonly _profileService = inject(ProfileService);
 	private readonly _questService = inject(QuestService);
 	private readonly _reviewService = inject(ReviewService);
-	private readonly _roomService = inject(RoomService);
 
 	protected readonly company = companyProfile;
 	protected readonly horecaHighlights = [
-		'Restaurants, cafes, hotels, bars, and catering teams can present the essentials in one place.',
-		'Guests can move from discovery to action through menu browsing, venue context, social proof, and contact options.',
+		'Wake Cup gives guests a quick way to browse coffee, pastries, takeaway options, and contact details before they visit.',
+		'The cafe content is written as text so search engines and guests can understand the Kamianets-Podilskyi location clearly.',
 		'Static, SEO-friendly pages keep core business information easy to scan on desktop and mobile.',
 	];
 	protected readonly featurePreviews = computed(() => {
@@ -57,7 +55,6 @@ export class HomeComponent {
 		const profile = this._profileService.profiles()[0];
 		const quest = this._questService.quests()[0];
 		const review = this._reviewService.reviews()[0];
-		const room = this._roomService.rooms()[0];
 		const previews: Array<FeaturePreview | null> = [
 			article
 				? {
@@ -68,19 +65,6 @@ export class HomeComponent {
 						itemRoute: `/article/${article.slug}`,
 						allRoute: '/articles',
 						seeAllLabel: 'See all articles',
-					}
-				: null,
-			room
-				? {
-						eyebrow: 'Room',
-						title: room.name,
-						summary: room.description,
-						meta: room.price,
-						itemRoute: `/room/${room.slug}`,
-						allRoute: '/rooms',
-						seeAllLabel: 'See all rooms',
-						imageSrc: room.image,
-						imageAlt: room.imageAlt,
 					}
 				: null,
 			discount
@@ -177,7 +161,6 @@ export class HomeComponent {
 			this._profileService.loadTranslations();
 			this._questService.loadTranslations();
 			this._reviewService.loadTranslations();
-			this._roomService.loadTranslations();
 		});
 	}
 }

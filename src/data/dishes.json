@@ -1,32 +1,318 @@
 [
-	{
-		"slug": "homemade-syrnyky-with-sour-cream",
-		"categorySlug": "breakfasts",
-		"image": "/dish/homemade-syrnyky-with-sour-cream.webp",
-		"name": "Homemade syrnyky with sour cream",
-		"description": "Golden cottage cheese pancakes served with sour cream.",
-		"price": 140,
-		"labels": ["200 g"],
-		"fullDescription": "Golden cottage cheese pancakes served with sour cream. Ingredients: cottage cheese, eggs, flour, sugar, and sour cream.",
-		"suggested": ["cappuccino"],
-		"cookTimeMinutes": 20,
-		"caloriesKcal": 420,
-		"portion": "200 g",
-		"allergens": ["milk"]
-	},
-	{
-		"slug": "cappuccino",
-		"categorySlug": "coffee",
-		"image": "/dish/cappuccino.webp",
-		"name": "Cappuccino",
-		"description": "Espresso with steamed milk and foam.",
-		"price": 50,
-		"labels": ["350 ml"],
-		"fullDescription": "Espresso with steamed milk and foam. Ingredients: Espresso with steamed milk and foam..",
-		"suggested": ["homemade-syrnyky-with-sour-cream"],
-		"cookTimeMinutes": 5,
-		"caloriesKcal": 110,
-		"portion": "350 ml",
-		"allergens": ["milk"]
-	}
+  {
+    "slug": "affogato",
+    "categorySlug": "coffee-milkshakes",
+    "image": "/dish/affogato.webp",
+    "name": "Афогато",
+    "description": "Еспресо з морозивом.",
+    "price": 35,
+    "labels": [
+      "Cold"
+    ],
+    "fullDescription": "Класичний італійський десертний кавовий напій з еспресо та морозивом.",
+    "suggested": [
+      "frappuccino"
+    ],
+    "cookTimeMinutes": 5,
+    "caloriesKcal": 180,
+    "portion": "250 ml",
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "slug": "frappuccino",
+    "categorySlug": "coffee-milkshakes",
+    "image": "/dish/frappuccino.webp",
+    "name": "Фрапучіно",
+    "description": "Холодний кавовий напій з льодом.",
+    "price": 45,
+    "labels": [
+      "45/62 грн"
+    ],
+    "fullDescription": "Освіжаючий збитий кавовий напій з льодом та молоком.",
+    "suggested": [
+      "ice-latte"
+    ],
+    "cookTimeMinutes": 5,
+    "caloriesKcal": 240,
+    "portion": "350 ml",
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "slug": "ice-latte",
+    "categorySlug": "coffee-milkshakes",
+    "image": "/dish/ice-latte.webp",
+    "name": "Айс Лате",
+    "description": "Холодне лате з льодом.",
+    "price": 35,
+    "labels": [
+      "35/50 грн"
+    ],
+    "fullDescription": "Класичне лате з льодом для спекотних днів.",
+    "suggested": [
+      "espresso-tonic"
+    ],
+    "cookTimeMinutes": 5,
+    "caloriesKcal": 150,
+    "portion": "350 ml",
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "slug": "ice-bumble",
+    "categorySlug": "coffee-milkshakes",
+    "image": "/dish/ice-bumble.webp",
+    "name": "Айс Джміль",
+    "description": "Кавовий напій з апельсиновим соком.",
+    "price": 40,
+    "labels": [
+      "40/55 грн"
+    ],
+    "fullDescription": "Освіжаючий мікс еспресо та цитрусового соку.",
+    "suggested": [
+      "espresso-pomegranate"
+    ],
+    "cookTimeMinutes": 5,
+    "caloriesKcal": 130,
+    "portion": "350 ml",
+    "allergens": []
+  },
+  {
+    "slug": "espresso-tonic",
+    "categorySlug": "coffee-milkshakes",
+    "image": "/dish/espresso-tonic.webp",
+    "name": "Еспресо Тонік",
+    "description": "Еспресо з тоніком та льодом.",
+    "price": 45,
+    "labels": [
+      "Cold"
+    ],
+    "fullDescription": "Тонізуючий кавовий напій з яскравою гірчинкою тоніку.",
+    "suggested": [
+      "ice-latte"
+    ],
+    "cookTimeMinutes": 5,
+    "caloriesKcal": 90,
+    "portion": "300 ml",
+    "allergens": []
+  },
+  {
+    "slug": "espresso-pomegranate",
+    "categorySlug": "coffee-milkshakes",
+    "image": "/dish/espresso-pomegranate.webp",
+    "name": "Еспресо Гранат",
+    "description": "Еспресо з гранатовими нотами.",
+    "price": 40,
+    "labels": [
+      "Cold"
+    ],
+    "fullDescription": "Кавовий напій з освіжаючим гранатовим смаком.",
+    "suggested": [
+      "espresso-tonic"
+    ],
+    "cookTimeMinutes": 5,
+    "caloriesKcal": 100,
+    "portion": "300 ml",
+    "allergens": []
+  },
+  {
+    "slug": "ice-cocoa",
+    "categorySlug": "coffee-milkshakes",
+    "image": "/dish/ice-cocoa.webp",
+    "name": "Айс какао",
+    "description": "Холодне какао з льодом.",
+    "price": 45,
+    "labels": [
+      "Cold"
+    ],
+    "fullDescription": "Ніжне охолоджене какао для літнього настрою.",
+    "suggested": [
+      "milkshake"
+    ],
+    "cookTimeMinutes": 5,
+    "caloriesKcal": 220,
+    "portion": "350 ml",
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "slug": "milkshake",
+    "categorySlug": "coffee-milkshakes",
+    "image": "/dish/milkshake.webp",
+    "name": "Мілк Шейк",
+    "description": "Класичний молочний коктейль.",
+    "price": 45,
+    "labels": [
+      "45/55 грн"
+    ],
+    "fullDescription": "Густий молочний коктейль з ніжною текстурою.",
+    "suggested": [
+      "ice-cocoa"
+    ],
+    "cookTimeMinutes": 5,
+    "caloriesKcal": 280,
+    "portion": "400 ml",
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "slug": "aperol-spritz-na",
+    "categorySlug": "cocktails-lemonades",
+    "image": "/dish/aperol-spritz-na.webp",
+    "name": "Aperol Spritz б/а",
+    "description": "Безалкогольний освіжаючий коктейль.",
+    "price": 45,
+    "labels": [
+      "45/60 грн"
+    ],
+    "fullDescription": "Яскравий цитрусовий коктейль без алкоголю.",
+    "suggested": [
+      "classic-mojito"
+    ],
+    "cookTimeMinutes": 5,
+    "caloriesKcal": 120,
+    "portion": "350 ml",
+    "allergens": []
+  },
+  {
+    "slug": "classic-mojito",
+    "categorySlug": "cocktails-lemonades",
+    "image": "/dish/classic-mojito.webp",
+    "name": "Класичний Мохіто",
+    "description": "М’ята, лайм та лід.",
+    "price": 35,
+    "labels": [
+      "35/45 грн"
+    ],
+    "fullDescription": "Освіжаючий безалкогольний мохіто з м’ятою та лаймом.",
+    "suggested": [
+      "berry-mojito"
+    ],
+    "cookTimeMinutes": 5,
+    "caloriesKcal": 110,
+    "portion": "350 ml",
+    "allergens": []
+  },
+  {
+    "slug": "berry-mojito",
+    "categorySlug": "cocktails-lemonades",
+    "image": "/dish/berry-mojito.webp",
+    "name": "Ягідний Мохіто",
+    "description": "Полуничний, малиновий або вишневий.",
+    "price": 40,
+    "labels": [
+      "40/50 грн"
+    ],
+    "fullDescription": "Ягідний варіант мохіто з насиченим фруктовим смаком.",
+    "suggested": [
+      "classic-mojito"
+    ],
+    "cookTimeMinutes": 5,
+    "caloriesKcal": 130,
+    "portion": "350 ml",
+    "allergens": []
+  },
+  {
+    "slug": "classic-lemonade",
+    "categorySlug": "cocktails-lemonades",
+    "image": "/dish/classic-lemonade.webp",
+    "name": "Класичний Лимонад",
+    "description": "Освіжаючий лимонад.",
+    "price": 35,
+    "labels": [
+      "Cold"
+    ],
+    "fullDescription": "Класичний літній лимонад з цитрусовим смаком.",
+    "suggested": [
+      "lavender-lemonade"
+    ],
+    "cookTimeMinutes": 5,
+    "caloriesKcal": 100,
+    "portion": "350 ml",
+    "allergens": []
+  },
+  {
+    "slug": "lavender-lemonade",
+    "categorySlug": "cocktails-lemonades",
+    "image": "/dish/lavender-lemonade.webp",
+    "name": "Лавандовий Лимонад",
+    "description": "Лимонад з лавандовими нотами.",
+    "price": 35,
+    "labels": [
+      "Cold"
+    ],
+    "fullDescription": "Ароматний лимонад з ніжним смаком лаванди.",
+    "suggested": [
+      "classic-lemonade"
+    ],
+    "cookTimeMinutes": 5,
+    "caloriesKcal": 100,
+    "portion": "350 ml",
+    "allergens": []
+  },
+  {
+    "slug": "iced-matcha-latte",
+    "categorySlug": "matcha-drinks",
+    "image": "/dish/iced-matcha-latte.webp",
+    "name": "Айс Матча Лате",
+    "description": "Холодний матча-лате.",
+    "price": 62,
+    "labels": [
+      "Cold"
+    ],
+    "fullDescription": "Освіжаючий матча-лате з молоком та льодом.",
+    "suggested": [
+      "matcha-tonic"
+    ],
+    "cookTimeMinutes": 5,
+    "caloriesKcal": 160,
+    "portion": "350 ml",
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "slug": "iced-matcha-orange",
+    "categorySlug": "matcha-drinks",
+    "image": "/dish/iced-matcha-orange.webp",
+    "name": "Айс Матча Орандж",
+    "description": "Матча з апельсиновим соком.",
+    "price": 60,
+    "labels": [
+      "Cold"
+    ],
+    "fullDescription": "Яскравий цитрусовий напій на основі матча.",
+    "suggested": [
+      "iced-matcha-latte"
+    ],
+    "cookTimeMinutes": 5,
+    "caloriesKcal": 140,
+    "portion": "350 ml",
+    "allergens": []
+  },
+  {
+    "slug": "matcha-tonic",
+    "categorySlug": "matcha-drinks",
+    "image": "/dish/matcha-tonic.webp",
+    "name": "Матча Тонік",
+    "description": "Матча з тоніком та льодом.",
+    "price": 60,
+    "labels": [
+      "Cold"
+    ],
+    "fullDescription": "Тонізуючий освіжаючий напій на основі матча.",
+    "suggested": [
+      "iced-matcha-orange"
+    ],
+    "cookTimeMinutes": 5,
+    "caloriesKcal": 90,
+    "portion": "350 ml",
+    "allergens": []
+  }
 ]

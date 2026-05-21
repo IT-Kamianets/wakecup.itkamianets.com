@@ -1,19 +1,19 @@
 {
 	"hero": {
 		"title": "Loyalty program",
-		"subtitle": "More visits, more benefits",
-		"description": "A simple loyalty program for regular guests who visit the restaurant, book rooms, enjoy coffee, use the spa, or celebrate special moments with us."
+		"subtitle": "More coffee, more benefits",
+		"description": "A simple loyalty program for regular Wake Cup guests who visit for specialty coffee, pastries, takeaway orders, and cafe moments."
 	},
 	"howItWorks": {
 		"title": "How it works",
 		"steps": [
 			{
 				"title": "Join the program",
-				"description": "Ask the team to add you to the loyalty program or join through our contact channels."
+				"description": "Ask the Wake Cup team to add you to the loyalty program or join through our contact channels."
 			},
 			{
-				"title": "Visit, book, or order",
-				"description": "Use restaurant, hotel, cafe, spa, event, or takeaway services as usual."
+				"title": "Visit or order",
+				"description": "Buy coffee, pastries, dessert boxes, or takeaway drinks as usual."
 			},
 			{
 				"title": "Receive guest benefits",
@@ -27,19 +27,18 @@
 			"Birthday bonus",
 			"Coffee or dessert gift",
 			"Special offers for regular guests",
-			"Room upgrade when available",
-			"Spa discount for returning guests",
-			"Early access to events",
+			"Takeaway coffee benefits",
+			"Early access to tasting events",
 			"Family and group visit benefits"
 		]
 	},
 	"earnRewards": {
 		"title": "Ways to earn rewards",
 		"items": [
-			"Restaurant visits",
-			"Hotel stays",
+			"Cafe visits",
 			"Coffee orders",
-			"Spa bookings",
+			"Pastry boxes",
+			"Takeaway drinks",
 			"Event reservations",
 			"Referring friends",
 			"Seasonal promotions"
@@ -50,29 +49,29 @@
 		"items": [
 			{
 				"name": "Guest",
-				"description": "The starting level for new guests who want to receive simple offers and updates.",
+				"description": "The starting level for new guests who want simple Wake Cup offers and updates.",
 				"benefits": [
 					"Access to active offers",
 					"Birthday reminder bonus",
-					"Invitations to selected events"
+					"Invitations to selected cafe events"
 				]
 			},
 			{
 				"name": "Regular guest",
-				"description": "A level for returning guests who visit more often and use several services.",
+				"description": "A level for returning guests who visit more often for coffee, pastries, and takeaway.",
 				"benefits": [
-					"Personal restaurant or cafe offers",
-					"Spa or room discount when available",
-					"Priority information about seasonal promotions"
+					"Personal cafe offers",
+					"Coffee or pastry bonus when available",
+					"Priority information about seasonal drinks"
 				]
 			},
 			{
 				"name": "VIP guest",
-				"description": "A special level for loyal guests, frequent visitors, and private event clients.",
+				"description": "A special level for loyal guests, frequent visitors, and private coffee event clients.",
 				"benefits": [
-					"Personal conditions for selected services",
-					"Early access to private events",
-					"Special attention for birthdays and family celebrations"
+					"Personal conditions for selected offers",
+					"Early access to tasting events",
+					"Special attention for birthdays and family visits"
 				]
 			}
 		]
@@ -83,8 +82,8 @@
 		"items": [
 			"Birthday dessert or drink",
 			"Anniversary offer",
-			"Family celebration bonus",
-			"Special conditions for private events"
+			"Family coffee bonus",
+			"Special conditions for small cafe gatherings"
 		]
 	},
 	"terms": {
@@ -92,8 +91,7 @@
 		"items": [
 			"Benefits may depend on availability",
 			"Offers cannot always be combined",
-			"Some rewards may require advance reservation",
-			"Room upgrades depend on free room availability",
+			"Some rewards may require advance order",
 			"The team can explain current active offers before your visit"
 		]
 	},
